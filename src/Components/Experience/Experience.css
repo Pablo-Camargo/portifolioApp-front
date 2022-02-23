@@ -1,0 +1,40 @@
+
+.containerExperience > div{
+  background:var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 1rem;
+  border: 1px solid transparent;margin-bottom: 50px;
+}
+#experience{text-align: center;}
+.containerExperience > div h3{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.containerExperience > div:hover{
+  background: transparent;
+  border-color: var(--color-bg-variant);
+}
+.experienceFront,.experienceBack{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+.experienceDetail{
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1020px){
+   .experienceFront,.experienceBack{
+     grid-template-columns: 1fr;
+   }
+  .containerExperience > div{
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 20px!important;
+  }
+
+}

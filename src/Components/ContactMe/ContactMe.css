@@ -1,0 +1,36 @@
+.colorCardContact{
+  background-color: var(--color-bg-variant)!important;
+  color: #fff!important;
+  text-decoration: none!important;
+   width: 18rem;    
+   margin: 0 auto;
+   border-radius: 1.2rem!important;
+}
+.backgroundProfileContact{
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  
+
+  height: 100vh;
+  min-height: fit-content;
+  
+}
+a{
+  color:#fff!important;
+  text-decoration:none!important
+}
+input,textarea{
+  padding: 1.5rem!important;
+  border-radius: 0.5rem!important;
+  background: transparent!important;
+  border:2px solid var(--color-primary-variant)!important;
+  resize: none!important;
+  color: #fff!important;
+}
+.contactText{
+  text-align: center;
+}
+.btnSubmit{
+  border-radius: 0.5rem!important;
+}
