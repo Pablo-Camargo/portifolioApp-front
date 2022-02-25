@@ -1,0 +1,43 @@
+.card-content-coment{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    width: 100%;
+    background: transparent;
+    height: 500px;
+    background-color: var(--color-bg-variant)!important;
+    color: #fff!important;
+    text-decoration: none!important;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 1.2rem!important;
+}
+
+.card-content-coment .resp-iner{
+      font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.resp-iner span{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.resp-iner p {
+  font-size: 20px;
+}
+.testemonialContainer h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.formulario-content{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.formulario-content form .formGroup,.formErro{
+  margin-bottom: 20px;
+
+} 

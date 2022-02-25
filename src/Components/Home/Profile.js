@@ -33,7 +33,8 @@ export default function Profile(){
             <span className='ProfileRoleSpan'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem rerum placeat expedita totam error at sed soluta.</span>
           </div>
           <div className="profileButtons">
-            <Button className='buttonShap colorPrimary' >Let's Talk</Button>
+            <a href="#contact"><Button className='buttonShap colorPrimary' >Let's Talk</Button></a>
+            
             <a href="pablo.pdf" download='Curiculo Pablo.pdf'>
               <Button className='buttonShap colorsecondary' >Download CV</Button>
             </a>

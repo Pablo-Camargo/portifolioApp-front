@@ -1,6 +1,32 @@
 .colorCard{
-  background:var(--color-bg-variant);
-  padding: 2.4rem 5rem;
-  border-radius: 1rem;
-  border: 1px solid transparent;margin-bottom: 50px;
+  background: transparent!important;
+    border-color: var(--color-bg-variant)!important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 139px;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+  margin-bottom: 50px;
+
+}
+#about .col-sm-6.col,#about .col{
+  margin-top: 20px;
+}
+.container h2{
+  text-align: center;
+  font-size: 2rem;
+}
+.contentCard h2{
+  font-size: 20px;
+}
+
+.contentCard{
+    color: #fff!important;
+    text-decoration: none!important;
+    width: 18rem;
+    margin: 0 auto;
+    border-radius: 1.2rem!important;
 }

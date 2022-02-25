@@ -12,7 +12,7 @@ export default  function AboutMe(){
         
           <h2>About Me</h2>
          <Row>
-          <Col className='col-sm-6'>
+          <Col className='col-sm-6 '>
             <div className="contentCard">
               <h2>Academic History</h2>
               <Card className='colorCard'>
