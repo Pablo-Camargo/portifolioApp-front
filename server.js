@@ -7,7 +7,7 @@ app.use('/',express.static(
   resolve(__dirname, './build')
 ))
 
-app.listen(process.env.PORT || 300, (error) =>{
+app.listen(process.env.PORT || 3000, (error) =>{
   if(error){
    return console.log(error);
   }
