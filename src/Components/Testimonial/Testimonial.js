@@ -40,7 +40,7 @@ export default function Testimonial(){
   const getComentarios = () =>{
    
      
-       Axios.get( "https://front-pablo.herokuapp.com/comentario")
+       Axios.get( "https://bancodopablo.herokuapp.com/comentario")
        .then((res)=> {
       console.log(res.data);
       setData(res.data)
