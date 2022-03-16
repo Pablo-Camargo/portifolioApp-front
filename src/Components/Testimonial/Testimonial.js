@@ -38,9 +38,9 @@ export default function Testimonial(){
       carousel.current.scrollLeft += carousel.current.offsetWidth;
   }
   const getComentarios = () =>{
-    const local = process.env.DB_HOST;
+   
      
-       Axios.get( local + "comentario")
+       Axios.get( "https://front-pablo.herokuapp.com/comentario")
        .then((res)=> {
       console.log(res.data);
       setData(res.data)
