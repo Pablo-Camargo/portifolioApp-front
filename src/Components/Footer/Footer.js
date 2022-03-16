@@ -5,10 +5,10 @@ import './Footer.css'
 export default function Footer(){
   return(
     <footer>
-      <a href="#" className="logoFooter">Pablo</a>
+      <a href="https://github.com/Pablo-Camargo" className="logoFooter">Pablo</a>
       <ul className="permaLinks">
         <li className="">
-          <a href="#" className="">Home</a>
+          <a href="#home" className="">Home</a>
           </li>
           <li className="">
           <a href="#about" className="">About</a>

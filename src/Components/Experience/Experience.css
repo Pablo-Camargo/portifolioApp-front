@@ -25,7 +25,11 @@
   align-items: baseline;
   margin-right: 20px;
 }
-
+.contentSkil{
+      display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 @media screen and (max-width: 1020px){
    .experienceFront,.experienceBack{
      grid-template-columns: 1fr;

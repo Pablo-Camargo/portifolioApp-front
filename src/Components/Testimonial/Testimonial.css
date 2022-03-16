@@ -1,35 +1,58 @@
 .card-content-coment{
-    flex: 1 1 auto;
+    
     padding: 1rem 1rem;
-    width: 100%;
-    background: transparent;
-    height: 500px;
     background-color: var(--color-bg-variant)!important;
-    color: #fff!important;
-    text-decoration: none!important;
-    justify-content: center;
+    
+    
     margin: 0 auto;
     border-radius: 1.2rem!important;
 }
-
+.carosel{
+scroll-behavior: smooth!important;
+overflow-x: auto!important;
+}
 .card-content-coment .resp-iner{
       font-size: 20px;
-    display: flex;
-    flex-direction: column;
+    flex-direction: row!important;
     align-items: center;
     text-align: center;
 }
-.resp-iner span{
+.items-wrapper{
+  display: grid;
+}
+.items {
+  display: flex;
+  scroll-behavior: smooth!important;
+  overflow-x: auto!important;
+  scroll-snap-align: start;
+}
+.items div{
+  flex: none;
+   width: 100%;
+   text-align: center;
+}
+
+.items  span{
   font-size: 30px;
   margin-bottom: 10px;
 }
-.resp-iner p {
+.items  p {
   font-size: 20px;
 }
-.testemonialContainer h3{
-  text-align: center;
-  font-size: 25px;
+.letftButton{
+  position: absolute;
+  left: 0;
+  cursor: pointer;
 }
+.rightButton{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.items-wrapper{
+  position: relative;
+}
+
 
 .formulario-content{
   display: flex;

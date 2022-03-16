@@ -68,7 +68,7 @@ export default function ContactMe(){
                   </Form.Group>
                  
                   <Button variant="primary" type="submit" className="btnSubmit">
-                   Send Message
+                   Let's Talk
                   </Button>
               </Form>
              </Col>

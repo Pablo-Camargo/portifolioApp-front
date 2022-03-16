@@ -20,7 +20,7 @@ export default  function AboutMe(){
                    GrowDev
                    
                 </div>
-                <spam>2020 - 2021</spam>
+                <span>2020 - 2021</span>
             
               </Card>
             </div>
