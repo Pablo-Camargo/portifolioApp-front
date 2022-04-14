@@ -1,117 +1,121 @@
-.profileDetails{
-  text-align: center;
-  
+.profileDetails {
+    text-align: center;
 }
-.marginTop{
-  margin-top: 10px;
+.marginTop {
+    margin-top: 10px;
 }
-.profileButtons{
-  margin-top: 25px;
+.profileButtons {
+    margin-top: 25px;
 }
-.backgroundProfile{
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  height: 100vh;
-  min-height: fit-content;
- 
+.backgroundProfile {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: fit-content;
 }
 
-.profileButtons{
-  display: flex;
-  justify-content: space-evenly;
-
+.profileButtons {
+    display: flex;
+    justify-content: space-evenly;
 }
-.warper{
-  height: 50px;
-  overflow: hidden;
+.warper {
+    height: 50px;
+    overflow: hidden;
 }
-.contentRole{
-  height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
+.contentRole {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
 }
 @keyframes move {
-  50%{transform: translateY(-50px);}
-  100%{transform: translateY(-100px);}
-  
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
 }
-.primaryInner{
-  height: 50px;
-  font-size: 30px;
-  font-weight: bold;
+.primaryInner {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
 }
-.profileButtons .buttonShap{
-  border-radius: 0.5rem!important;
-} 
-.buttonShap.colorPrimary{
-  background-color: var( --color-bg-variant);
-  border-color: #2c2c6cab;
-}.buttonShap.colorPrimary:focus{
-  box-shadow: 0 0 0 0.25rem #574d78b4;
+.profileButtons .buttonShap {
+    border-radius: 0.5rem !important;
 }
-.buttonShap.colorPrimary:hover{
-  background-color:  #4A3395;
-  
+.buttonShap.colorPrimary {
+    background-color: var(--color-bg-variant);
+    border-color: #2c2c6cab;
 }
-.buttonShap.colorsecondary{
-  border-color: var(--color-bg-variant);
-  background: transparent;
+.buttonShap.colorPrimary:focus {
+    box-shadow: 0 0 0 0.25rem #574d78b4;
 }
-.buttonShap.colorsecondary:hover{
-  
-  background-color: var(--color-bg-variant);;
+.buttonShap.colorPrimary:hover {
+    background-color: #4a3395;
 }
-.buttonShap.colorsecondary:focus{
-  box-shadow: 0 0 0 0.25rem #574d78b4;
+.buttonShap.colorsecondary {
+    border-color: var(--color-bg-variant);
+    background: transparent;
 }
-.contantFoto{
-  display: flex;
-  justify-content: center;
+.buttonShap.colorsecondary:hover {
+    background-color: var(--color-bg-variant);
 }
-.profilePicture{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  
-
-  height: 300px;
-  width: 300px;
-  
+.buttonShap.colorsecondary:focus {
+    box-shadow: 0 0 0 0.25rem #574d78b4;
 }
-.pictureBackground{
-  height: 92%;
-  width: 92%;
-  background-image: url('../../assets/Home/foto.jpg');
-  background-size: cover;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-
+.contantFoto {
+    display: flex;
+    justify-content: center;
 }
-.pictureBackground:hover{
-  transform: scale(1.07);
-  transition:1s ease-out ;
+.profilePicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
 }
-.colz{
-  padding:8px
-
+.pictureBackground {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../assets/Home/foto.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.colz a{
-  font-size: 35px;
-  padding:8px;
-  
+.pictureBackground:hover {
+    transform: scale(1.07);
+    transition: 1s ease-out;
 }
-.colz a:hover{
-  
-  color: #0d6efd!important;
+.colz {
+    padding: 8px;
+}
+.colz a {
+    font-size: 35px;
+    padding: 8px;
+}
+.colz a:hover {
+    color: #0d6efd !important;
 }
 
-@media screen and (max-width:1024px){
-.backgroundProfileContact.container{height: 100%;
-margin-bottom: 20px;}
+@media screen and (max-width: 1024px) {
+    .backgroundProfileContact.container {
+        height: 100%;
+        margin-bottom: 20px;
+    }
 }
-@media screen and (max-width:600px){
-.backgroundProfileContact.container{height: 100%;}
+@media screen and (max-width: 600px) {
+    .backgroundProfileContact.container {
+        height: 100%;
+    }
+    .backgroundProfile {
+        height: 100%;
+    }
+
+    .pictureBackground {
+        height: 90%;
+        margin-bottom: 50px;
+    }
 }

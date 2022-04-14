@@ -1,6 +1,6 @@
-.colorCard{
-  background: transparent!important;
-    border-color: var(--color-bg-variant)!important;
+.colorCard {
+    background: transparent !important;
+    border-color: var(--color-bg-variant) !important;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,25 +8,37 @@
     justify-content: center;
     align-items: center;
 }
-#about{
-  margin-bottom: 50px;
+#about {
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+#about .col-sm-6.col,
+#about .col {
+    margin-top: 20px;
+}
+.container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.contentCard h2 {
+    font-size: 20px;
+}
 
-}
-#about .col-sm-6.col,#about .col{
-  margin-top: 20px;
-}
-.container h2{
-  text-align: center;
-  font-size: 2rem;
-}
-.contentCard h2{
-  font-size: 20px;
-}
-
-.contentCard{
-    color: #fff!important;
-    text-decoration: none!important;
+.contentCard {
+    color: #fff !important;
+    text-decoration: none !important;
     width: 18rem;
     margin: 0 auto;
-    border-radius: 1.2rem!important;
+    border-radius: 1.2rem !important;
+}
+@media screen and (max-width: 1024px) {
+    #about {
+        height: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+    }
 }

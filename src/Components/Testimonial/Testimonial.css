@@ -1,66 +1,79 @@
-.card-content-coment{
-    
+.card-content-coment {
     padding: 1rem 1rem;
-    background-color: var(--color-bg-variant)!important;
-    
-    
+    height: 100%;
+    background-color: var(--color-bg-variant) !important;
+
     margin: 0 auto;
-    border-radius: 1.2rem!important;
+    border-radius: 1.2rem !important;
 }
-.carosel{
-scroll-behavior: smooth!important;
-overflow-x: auto!important;
+#testimonial h3 {
+    text-align: center;
+    margin-bottom: 50px;
 }
-.card-content-coment .resp-iner{
-      font-size: 20px;
-    flex-direction: row!important;
+#testimonial {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.carosel {
+    scroll-behavior: smooth !important;
+    overflow-x: auto !important;
+}
+.height-text {
+    height: 100%;
+}
+.card-content-coment .resp-iner {
+    font-size: 20px;
+    flex-direction: row !important;
     align-items: center;
     text-align: center;
 }
-.items-wrapper{
-  display: grid;
+.items-wrapper {
+    display: grid;
+    height: inherit;
 }
 .items {
-  display: flex;
-  scroll-behavior: smooth!important;
-  overflow-x: auto!important;
-  scroll-snap-align: start;
+    display: flex;
+    scroll-behavior: smooth !important;
+    overflow-x: auto !important;
+    scroll-snap-align: start;
 }
-.items div{
-  flex: none;
-   width: 100%;
-   text-align: center;
-}
-
-.items  span{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.items  p {
-  font-size: 20px;
-}
-.letftButton{
-  position: absolute;
-  left: 0;
-  cursor: pointer;
-}
-.rightButton{
-  position: absolute;
-  right: 0;
-  cursor: pointer;
-}
-.items-wrapper{
-  position: relative;
+.items div {
+    flex: none;
+    width: 100%;
+    text-align: center;
 }
 
-
-.formulario-content{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
+.items span {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
-.formulario-content form .formGroup,.formErro{
-  margin-bottom: 20px;
+.items p {
+    font-size: 20px;
+}
+.letftButton {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+.rightButton {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.items-wrapper {
+    position: relative;
+}
 
-} 
+.formulario-content form .formGroup,
+.formErro {
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1024px) {
+    #testimonial {
+        height: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+    }
+}
